@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Index</title>
+		<!-- Jquery -->
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/app.css">
+		<!-- Scriptin -->
+		<script src="js/navigationSideBar.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div id="wrapper">
+
+			  <!-- Side Bar-->
+		      <div id="sidebar-wrapper">
+			    <ul id="sidebar_menu" class="sidebar-nav">
+		        	<li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+			    </ul>
+		        <ul class="sidebar-nav" id="sidebar">     
+		          	<li><a>Link1<span class="sub_icon glyphicon glyphicon-expand"></span></a></li>
+		          	<li><a>link2<span class="sub_icon glyphicon glyphicon-expand"></span></a></li>
+		        </ul>
+		        <ul class="sidebar-nav sidebar-bottom">
+		            <li><a>New<span class="sub_icon glyphicon glyphicon-plus"></span></a></li>
+		        </ul>
+		      </div>
+		          
+		      <!-- Page content -->
+		      <div id="page-content-wrapper">
+		        <div class="page-content inset">
+		          <div class="row">
+		            <div class="col-md-12">
+		          		<h1>Yaml Maker</h1>
+		           	</div>
+		          </div>
+		          <div class="row">
+		          	<div class="col-md-12">
+		          		<div class="form-group"><br>
+						  	<textarea class="form-control" rows="12" id="comment"></textarea>
+						</div>
+		          	</div>
+		          	<div class="row">
+		          		<div class="col-md-12">
+		          			<button class="btn btn-default pull-right">Delete</button>
+		          			<button class="btn btn-success pull-right">Save</button>
+						</div>
+		          	</div>
+		          </div>
+		     	</div>
+		      </div>
+			</div>
+		</div>
+	</body>
+</html>
